@@ -127,6 +127,53 @@
 9. [템플릿 메서드의 개념과 장단점을 설명하고, 언제 사용할 수 있는지 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/79)
 10. [퍼사드 패턴과 어댑터 패턴를 비교하세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/80)
 
+## 레벨3: 데이터베이스
+### 키
+1. [무결성이란 무엇인가요? 그리고 무결성 제약조건이란 무엇인까요?](https://github.com/woowacourse-study-2024/level-interview/discussions/219)
+2. [무결성 제약조건의 종류에 대해서 설명해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/220)
+3. [기본 키(Primary Key)와 고유 키(Unique Key)의 차이점은 무엇인가요? ](https://github.com/woowacourse-study-2024/level-interview/discussions/221)
+4. [어떤 경우에 무결성 제약조건을 사용하지 않는 것이 좋다고 생각하나요? ](https://github.com/woowacourse-study-2024/level-interview/discussions/222)
+5. [외래 키(Foreign Key)의 역할은 무엇이며, 데이터 무결성에 어떤 도움을 주나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/223) 
+6. [무결성 제약조건을 적용할 때 성능 이슈가 발생할 수 있는 상황은 어떤 경우인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/224)
+7. [외래 키 제약조건이 있는 테이블에서 데이터 삭제를 할 때 발생할 수 있는 문제는 무엇이며, 이를 해결하기 위한 방법은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/225)
+8. [외래 키 제약조건과 관련이 있는 CASCADE와 CASCADE의 장단점에 대해서 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/226)
+
+
+### 정규화
+1. [데이터베이스 정규화가 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/201)
+2. [데이터베이스에서 발생할 수 있는 이상 현상의 종류에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/202)
+3. [함수 종속성이 무엇이고 어떤 종류가 있는지 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/203)
+4. [1 정규형에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/204)
+5. [2 정규형에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/205)
+6. [3 정규형에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/206)
+7. [BCNF, 4, 5 정규형에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/207)
+8. [데이터베이스의 정규화는 왜 필요한가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/208)
+9. [과도한 정규화 적용 시 발생할 수 있는 문제점에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/209)
+10. [반정규화는 무엇이며 왜 적용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/210)
+   
+### 락
+1. [데이터베이스에서 S-lock과 X-lock에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/196)
+2. [2단계 락킹이란 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/197)
+3. [MySQL에서 사용되는 락에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/198)
+4. [낙관적 락과 비관적 락의 차이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/200)
+    
+### 트랜잭션
+1. [트랜잭션이란 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/193)
+2. [트랜잭션의 ACID에 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/194)
+3. [트랜잭션 격리수준이 무엇인가요? 어떤 격리수준이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/195)
+4. [트랜잭션 격리 수준이 낮을 때 발생할 수 있는 문제는 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/199)
+   
+
+### 인덱스
+1. [인덱스란 무엇이고, 어떻게 동작하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/211)
+2. [인덱스에서 사용하는 자료구조를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/212)
+3. [B-Tree 인덱스 사용에 영향을 미치는 요소에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/213)
+4. [인덱스 스캔 방식의 종류와 특징을 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/214)
+5. [복합 인덱스를 설정할 때 쿼리 성능에 영향을 미치는 요소에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/215)
+6. [인덱스가 존재함에도 불구하고 쿼리에서 사용되지 않는 경우를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/217)
+7. [데이터베이스 쿼리가 여러 개의 인덱스를 사용할 수 있는 경우, 어떤 기준으로 인덱스가 선택되나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/216)
+
+
 ## 레벨4
 ### Tomcat
 1. [Tomcat이 서블릿 컨테이너로서 어떤 역할을 하며, 서블릿과의 관계는 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/163)
