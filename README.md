@@ -1,5 +1,159 @@
 # level-interview
 
+## 레벨1: JAVA
+### 객체지향 기초 개념
+1. [클래스, 인스턴스 그리고 객체의 차이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/19)
+#### 상속
+1. [추상 클래스와 인터페이스는 어떤 상황에서 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/27)
+2. [추상클래스와 인터페이스의 차이를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/11)
+3. [상속과 조합은 각각 무엇이고 어떤 상황에서 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/28)
+4. [상속이 갖는 문제점은 무엇이고 이를 어떻게 해결할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/29)
+5. [default 메서드는 무엇이고, 왜 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/360)
+#### 다형성
+1. [Java에서 다형성을 구현하는 방법은 무엇이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/1)
+2. [Overriding의 조건은?](https://github.com/woowacourse-study-2024/level-interview/discussions/2)
+3. [method overridding과 overloading의 차이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/25)
+4. [다형성은 무엇이고, 사용했을 때 어떤 이점을 얻을 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/26)
+#### 캡슐화
+1. [클래스의 변수를 public이 아닌 private으로 설정하고 getter/setter를 사용하는 이유가 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/20)
+2. [Java에서 접근 제어자에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/18)
+#### 추상화
+1. [강한 결합과 느슨한 결합의 차이를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/10)
+
+### JVM
+1. [Java 파일이 실행되는 과정을 설명해보세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/5)
+2. [클래스와 인스턴스는 JVM내에서 어떻게 동작하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/24)
+3. [JVM이란 무엇이고 왜 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/171)
+4. [JRE, JDK, JVM이 각각 무엇이고 어떤 관계인지 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/172)
+5. [JVM의 구조에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/173)
+6. [JVM의 Runtime Data Area에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/174)
+7. [JVM의 ClassLoader에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/175)
+
+### GC
+1. [GC가 무엇이고 언제 발생하는지 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/176)
+2. [Stop the world 이벤트가 무엇인지 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/177)
+3. [Major GC와 Minor GC에 대해 설명해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/178)
+
+### 리소스 관리
+1. [Java에서 어떤 경우에 리소스 반납을 해야 하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/21)
+2. [Try-with-resources는 어떻게 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/22)
+
+### 불변성과 복사
+1. [가변과 불변의 차이는 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/3)
+2. [깊은 복사와 얕은 복사의 차이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/30)
+3. [unmodifiable 자료형을 사용하는 것과 copyOf를 사용하는 것은 어떤 차이점이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/31)
+4. [방어적 복사는 무엇이고 왜 필요한가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/32)
+5. [String, StringBuilder, StringBuffer의 차이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/23)
+
+### 동일성 & 동등성
+1. [동등성과 동일성의 차이에 대해서 설명해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/15)
+2. [Equals&HashCode는 언제 재정의해서 사용할까요? 그리고 그 둘을 항상 같이 재정의해야하는 이유도 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/16)
+   
+### 타입 안정성
+1. [제네릭이란 무엇이며 언제 사용할까요?](https://github.com/woowacourse-study-2024/level-interview/discussions/12)
+2. [Enum은 무엇이며 어떤 상황에 사용할 수 있을까요?](https://github.com/woowacourse-study-2024/level-interview/discussions/14)
+3. [Varargs는 무엇이며 언제 사용할 수 있을까요?](https://github.com/woowacourse-study-2024/level-interview/discussions/8)
+
+### 예외
+1. [예외의 종류는 무엇이 있을까요? 그리고 각 예외 종류에 따라 어떤 특징이 있는 지 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/13)
+
+### Serializable
+1. [Serializable 인터페이스는 어떤 역할을 하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/179)
+2. [Serializable 대신 사용할 수 있는 다른 직렬화 방법에는 어떤 것이 있나요? 각각의 장단점을 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/180)
+
+### Java 8
+#### Optional
+1. [자바에서 null을 안전하게 다루는 방법에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/17)
+2. [Optional이란 무엇이며, 어떤 문제를 해결하기 위해 도입되었나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/35)
+3. [Optional을 사용할때 주의해야 할 부분은 어떤 것이 있을까요?](https://github.com/woowacourse-study-2024/level-interview/discussions/38)
+
+#### Stream
+1. [Java Stream API에 대해 소개해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/39)
+2. [스트림과 for-loop의 차이점을 설명해보세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/6)
+3. [Stream API를 사용할 때의 성능 고려사항에 대해 말해보세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/7)
+4. [자바 스트림 API와 함수형 인터페이스의 관계를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/40)
+
+#### 함수형 인터페이스
+1. [함수형 인터페이스는 무엇이고 어떻게 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/34)
+2. [자바에서 제공하는 기본 함수형 인터페이스의 종류와 각각의 용도를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/4)
+3. [람다와 익명 클래스는 어떻게 다르고 각각의 장단점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/33)
+4. [함수형 인터페이스에 @FunctionalInterface 어노테이션을 사용하는 이유는 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/37)
+
+### 컬렉션
+1. [JCF란 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/49)
+2. [10개의 element 를 채워넣은 ArrayList 의 11번째 element 을 add 하기위해 어떤 일이 일어나는지 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/9)
+3. [Array와 List의 차이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/44)
+4. [ArrayList는 어떻게 동작하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/45)
+7. [Stack 대신 ArrayDeque 사용을 제안하는 이유는 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/48)
+8. [ArrayList의 indexOf를 사용할 때 어떤 주의점이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/50)
+9. [Set과 List의 차이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/56)
+10. [HashMap에서 Hash 충돌이 발생하면 어떤 일이 일어나나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/58)
+11. [Java8에서부터 HashMap이 어떻게 개선됐는지 설명해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/59)
+#### 자료구조
+1. [Tree 탐색 방법에는 어떤 것들이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/52)
+2. [Binary Tree는 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/53)
+3. [B-Tree는 무엇이고 어떨 때 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/54)
+4. [Set 자료구조에 대해 설명해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/55)
+5. [Queue는 어떻게 동작하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/46)
+6. [Stack은 어떻게 동작하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/47)
+7. [Map 자료구조에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/57)
+8. [Heap 자료구조에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/60)
+9. [Heap은 어떤 경우에 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/61)
+
+### 테스트
+1. [테스트 픽스처란 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/42)
+2. [TDD란 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/43)
+3. [단위테스트애서 AAA는 무엇을 의미하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/51)
+4. [JUnit5의 주요 특징과 JUnit4와의 차이점에 대해 설명해 주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/62)
+5. [AssertJ란 무엇이며, Junit과 AssertJ를 함께 사용하는 이유를 말씀해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/63)
+6. [FIRST 원칙이란 무엇이며, 각각의 원칙을 설명해 주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/64)
+7. [FIRST 원칙 중 가장 중요하다고 생각하시는 원칙이 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/67)
+8. [단위 테스트를 작성하는 데에 FIRST원칙이 중요한 이유를 설명해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/68)
+9. [테스트 더블이란 무엇이며 종류로는 무엇이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/65)
+10. [각 종류의 테스트 더블(Stub, Fake, Dummy, Spy ,Mock) 은 언제 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/66)
+11. [자바의 Mockito 라이브러리에 대해서 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/69)
+12. [테스트더블 중 stub과 mock 차이를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/70)
+13. [테스트더블 중 Spy는 어떤 상황에서 사용되나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/71)
+
+### 디자인 패턴
+1. [MVC 패턴이란 무엇이고, 왜 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/72)
+2. [디자인 패턴의 개념과, 사용이유, 종류에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/81)
+3. [Builder 패턴을 사용하는 상황은 언제이며, 이를 통해 얻을 수 있는 이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/73)
+4. [추상 팩토리는 왜 사용하며, 어떤 장단점이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/categories/java?discussions_q=is%3Aopen+category%3AJava+sort%3Adate_created&page=2)
+5. [팩토리 메서드 패턴이란 무엇이며, 어떤 상황에서 유용하게 사용될 수 있는지 설명해 주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/75)
+6. [추상 팩토리 패턴과 팩토리 메서드 패턴의 차이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/76)
+7. [State 패턴을 사용하지 않고 상태 전환을 구현할 때 발생할 수 있는 문제점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/77)
+8. [Strategy 패턴은 사용하는 이유와 장단점을 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/78)
+9. [템플릿 메서드의 개념과 장단점을 설명하고, 언제 사용할 수 있는지 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/79)
+10. [퍼사드 패턴과 어댑터 패턴를 비교하세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/80)
+
+## 레벨4
+### Tomcat
+1. [Tomcat이 서블릿 컨테이너로서 어떤 역할을 하며, 서블릿과의 관계는 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/163)
+2. [Tomcat에서 사용되는 커넥터에 대해 설명해보세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/164)
+3. [Tomcat의 동작 과정을 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/165)
+4. [Tomcat을 구성하는 구조에 대해 설명해보세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/166)
+5. [Tomcat에서 실행되는 일반적인 서블릿의 라이프사이클을 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/167)
+6. [Tomcat에서는 Thread Pool을 어떻게 관리하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/168)
+7. [Tomcat의 Session 관리 방법을 설명하세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/169)
+8. [Tomcat은 Static Resource를 어떻게 처리하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/170)
+
+### 동시성
+1. [Java에서 동시성을 보장하기 위해 어떠한 해결책들이 존재하는지 설명해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/185)
+2. [동시성 문제란 무엇이며 왜 발생하나요](https://github.com/woowacourse-study-2024/level-interview/discussions/187)
+3. [Atomic객체와 그 원리에 대해서 설명해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/186)
+4. [Java의 synchronized 키워드는 어떻게 작동하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/188)
+5. [volatile 키워드에 대해서 설명해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/192)
+6. [Deadlock(교착 상태)이란 무엇이며, Java에서 이를 어떻게 방지할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/189)
+7. [Race Condition이란 무엇이며 언제 발생하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/190)
+8. [스레드 안전(Thread-Safety)이란 무엇이며, 이를 지키기 위한 4가지 원칙으로 무엇이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/191)
+
+### NIO
+1. [NIO의 핵심 개념인 Channel과 Buffer에 대해 설명해 주세요. InputStream 및 OutputStream과는 어떤 차이점이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/181)
+2. [NIO에서 비동기 I/O가 어떻게 작동하는지 설명해 주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/182)
+3. [Java NIO에서 메모리 매핑 파일(Memory Mapped Files)을 사용하는 이유는 무엇인가요? 전통적인 파일 I/O와 비교해 장점이 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/183)
+4. [NIO에서 Selector의 역할은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/184)
+
 ## 👥 스터디 멤버
 
 <table>
