@@ -127,6 +127,99 @@
 9. [템플릿 메서드의 개념과 장단점을 설명하고, 언제 사용할 수 있는지 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/79)
 10. [퍼사드 패턴과 어댑터 패턴를 비교하세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/80)
 
+## 레벨 2: Spring
+
+### Bean
+1. [**스프링의 Bean이란 무엇이고 Bean은 어떻게 정의되고 관리됩니까?**](https://github.com/woowacourse-study-2024/level-interview/discussions/105)
+2. [**스프링에서 Bean의 생명주기에 대해 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/107)
+3. [**스프링에서 Bean의 스코프(scope)는 어떤 것들이 있으며, 각각의 의미에 대해 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/109)
+4. [**@Component, @Service, @Controller, @Repostiory의 차이를 설명해보세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/98)
+
+#### Bean 생성
+
+1. [**스프링의 IoC 컨테이너에 Bean을 등록할 수 있는 방법 두 가지 주요 방법을 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/111)
+2. [**스프링의 @Configuration 애노테이션의 역할에 대해서 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/106)
+3. [**Component Scan이 무엇인지 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/88)
+4. [**스프링의 컴포넌트 스캔에 대해서 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/112)
+5. [**Spring boot에서 별도로 @ComponentScan 어노테이션 설정을 하지 않아도 빈 등록이 가능한 이유는 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/89)
+6. [**스프링에서 Default로 등록된 Bean 과, `@Configuration`에 정의한 Bean이 같은 타입의 객체라면 무슨 일이 발생하나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/110)
+
+### IoC/DI
+
+1. [**스프링의 IoC(Inversion Of Control)와 DI(Dependency Injection)에 대해서 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/103)
+2. [**IoC와 DI(Dependency Injection)의 차이점에 대해서 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/108)
+3. [**Application Context가 무엇인지 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/90)
+4. [**Application Context의 초기화 과정을 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/91)
+5. [**Bean Factory와 Application Context의 차이점을 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/92)
+6. [**스프링에서의 의존성 주입 방법 3가지를 설명해주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/104)
+
+### MVC Config
+
+1. [**@EnableWebMvc 어노테이션의 역할과 이를 사용했을 때의 효과를 설명해 주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/120)
+2. [**Spring에서 MVC Config를 사용하여 어떤 설정을 할 수 있나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/118)
+3. [**WebMvcConfigurer를 구현할 때 자주 사용하는 메서드와 그 용도를 설명해 주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/119)
+4. [**Spring MVC에서 뷰 이름이 요청 경로와 일치하지 않을 경우, View Resolver를 통해 이를 어떻게 해결할 수 있나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/122)
+
+### Argument Resolver
+
+1. [**Arguement Resolver란 무엇인가요, 왜 사용하나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/114)
+2. [**커스텀 Argument Resolver를 구현할 때, WebMvcConfigurer의 addArgumentResolvers 메서드의 용도는 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/121)
+
+### View Reoslver
+
+1. [**여러 개의 View Resolver를 사용하는 경우, 그 우선순위는 어떻게 정해지나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/116)
+2. [**View Resolver란 무엇인가요, 왜 사용하나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/115)
+
+### Auto Configure
+
+1. [**Auto Configuration이란 무엇이고, 어떻게 동작하는지 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/95)
+2. [**@EnableAutoConfiguration 어노테이션의 역할은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/96)
+3. [**Spring Boot의 Auto Configuration이 application.yml 파일의 설정과 어떻게 연관되는지 설명해 주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/102)
+
+### Dispatcher Servlet
+
+1. [**Dispatcher Servlet이란 무엇이고, 왜 사용하나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/113)
+2. [**Dispatcher Servlet이 요청을 처리하는 흐름을 설명해 주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/117)
+
+### Interceptor / Filter
+
+1. [**여러 개의 Interceptor가 동일한 mapping에 등록된다면 어떤 순서로 동작하나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/85)
+2. [**Interceptor는 어떤 상황에서 주로 사용하나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/84)
+3. [**Interceptor와 Filter가 각각 무엇이고 어떤 차이점을 가지는지 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/83)
+
+### Controller Advice
+
+1. [**Controller Advice 사용 시의 이점과 주의점을 말해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/87)
+2. [**Controller Advice는 무엇이고 어떤 상황에서 주로 사용하나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/86)
+
+### AOP
+
+1. [**AOP란 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/123)
+2. [**Spring AOP에서 주의사항으로 무엇이 있나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/143)
+3. [**스프링에서 사용되는 AOP의 주요 용어에 대해 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/128)
+4. [**AOP를 언제 사용하고 왜 사용하나요? 장단점은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/127)
+5. [**Spring에서 어떤 프록시를 사용하나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/144)
+
+### Transaction
+
+1. [**Transactional 어노테이션의 동작 원리에 대해 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/129)
+2. [**Transactional 어노테이션에 대해 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/124)
+3. [**Transactional 어노테이션의 readOnly 옵션을 true로 설정하는 이유는 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/125)
+4. [**선언적 트랜잭션 방식을 사용하는 이유는 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/130)
+5. [**Transactional의 전파에 대해 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/126)
+
+### JDBC / SQL Mapper
+
+1. [**JDBC Template과 표준 JDBC API의 차이점은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/99)
+2. [**JDBC Template을 사용했을 때의 장점은 무엇이 있나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/94)
+3. [**JDBC Template과 표준 JDBC API의 차이점은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/101)
+4. [**SQL Mapper란 무엇이고, 어떤 이점을 누릴 수 있나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/100)
+
+### ETC
+
+1. [**@Controller와 @RestController의 역할과 차이점은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/93)
+2. [**ReponseBody와 ResponseEntity의 차이는 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/97)
+
 ## 레벨3: 데이터베이스
 ### 키
 1. [무결성이란 무엇인가요? 그리고 무결성 제약조건이란 무엇인까요?](https://github.com/woowacourse-study-2024/level-interview/discussions/219)
