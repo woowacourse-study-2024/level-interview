@@ -10,7 +10,7 @@
 2. [추상클래스와 인터페이스의 차이를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/11)
 3. [상속과 조합은 각각 무엇이고 어떤 상황에서 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/28)
 4. [상속이 갖는 문제점은 무엇이고 이를 어떻게 해결할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/29)
-5. [default 메서드는 무엇이고, 왜 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/360)
+5. [default 메서드는 무엇이고, 왜 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/36)
 #### 다형성
 1. [Java에서 다형성을 구현하는 방법은 무엇이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/1)
 2. [Overriding의 조건은?](https://github.com/woowacourse-study-2024/level-interview/discussions/2)
