@@ -1,6 +1,8 @@
 # level-interview
 
-## 레벨1: JAVA
+<details>
+<summary><h2>레벨1: JAVA</h2></summary>
+
 ### 객체지향 기초 개념
 1. [클래스, 인스턴스 그리고 객체의 차이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/19)
 #### 상속
@@ -126,8 +128,10 @@
 8. [Strategy 패턴은 사용하는 이유와 장단점을 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/78)
 9. [템플릿 메서드의 개념과 장단점을 설명하고, 언제 사용할 수 있는지 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/79)
 10. [퍼사드 패턴과 어댑터 패턴를 비교하세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/80)
+</details>
 
-## 레벨 2: Spring
+<details>
+<summary><h2>레벨 2: Spring</h2></summary>
 
 ### Bean
 1. [**스프링의 Bean이란 무엇이고 Bean은 어떻게 정의되고 관리됩니까?**](https://github.com/woowacourse-study-2024/level-interview/discussions/105)
@@ -219,8 +223,11 @@
 
 1. [**@Controller와 @RestController의 역할과 차이점은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/93)
 2. [**ReponseBody와 ResponseEntity의 차이는 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/97)
+</details>
 
-## 레벨3: 데이터베이스
+<details>
+<summary><h2>레벨3: 데이터베이스</h2></summary>
+
 ### 키
 1. [무결성이란 무엇인가요? 그리고 무결성 제약조건이란 무엇인까요?](https://github.com/woowacourse-study-2024/level-interview/discussions/219)
 2. [무결성 제약조건의 종류에 대해서 설명해주세요](https://github.com/woowacourse-study-2024/level-interview/discussions/220)
@@ -265,9 +272,11 @@
 5. [복합 인덱스를 설정할 때 쿼리 성능에 영향을 미치는 요소에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/215)
 6. [인덱스가 존재함에도 불구하고 쿼리에서 사용되지 않는 경우를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/217)
 7. [데이터베이스 쿼리가 여러 개의 인덱스를 사용할 수 있는 경우, 어떤 기준으로 인덱스가 선택되나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/216)
+</details>
 
-
-## 레벨4
+<details>
+<summary><h2>레벨4: 톰캣, 동시성, NIO</h2></summary>
+   
 ### Tomcat
 1. [Tomcat이 서블릿 컨테이너로서 어떤 역할을 하며, 서블릿과의 관계는 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/163)
 2. [Tomcat에서 사용되는 커넥터에 대해 설명해보세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/164)
@@ -293,6 +302,7 @@
 2. [NIO에서 비동기 I/O가 어떻게 작동하는지 설명해 주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/182)
 3. [Java NIO에서 메모리 매핑 파일(Memory Mapped Files)을 사용하는 이유는 무엇인가요? 전통적인 파일 I/O와 비교해 장점이 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/183)
 4. [NIO에서 Selector의 역할은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/184)
+</details>
 
 ## 👥 스터디 멤버
 
