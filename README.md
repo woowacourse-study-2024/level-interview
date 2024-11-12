@@ -223,6 +223,63 @@
 
 1. [**@Controller와 @RestController의 역할과 차이점은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/93)
 2. [**ReponseBody와 ResponseEntity의 차이는 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/97)
+
+</details>
+
+<details>
+<summary><h2>레벨2: JPA</h2></summary>
+
+### 엔티티
+
+1. [**JPA에서 엔티티(Entity)란 무엇이며, 이를 매핑하기 위한 기본 어노테이션은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/131)
+2. [**엔티티에서 기본 생성자가 왜 필요한가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/145)
+3. [**JPA에서 엔티티의 기본 키 생성 전략을 설정하는 방법에는 어떤 것들이 있나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/132)
+4. [**@Embedded와 @Embeddable 어노테이션의 차이점과 사용 방법을 설명해 주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/150)
+5. [**@Table 어노테이션의 역할과 주요 속성에 대해서 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/149)
+6. [**@Lob 어노테이션을 사용할 때 데이터베이스의 BLOB/CLOB 타입과의 매핑 과정에 대해 설명해주세요. 이 어노테이션을 사용할 때의 성능 문제는 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/147)
+7. [**JPA에서 엔티티의 생명 주기 상태는 어떤 것이 있으며, 각각의 상태에 대해 설명해 주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/157)
+8. [**@Transient 어노테이션의 역할과 사용 목적을 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/151)
+9. [**@Access 어노테이션의 역할과 사용 목정에 대해서 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/152)
+
+### 영속성 컨텍스트
+
+1. [**영속성 컨텍스트란 무엇이며, 그 역할은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/153)
+2. [**영속성 컨텍스트를 통해 얻을 수 있는 이점에 대해 설명해 주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/154)
+3. [**Flush와 Clear의 차이점은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/158)
+4. [**EntityManagerFactory와 EntityManager의 차이점은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/160)
+5. [**영속성 컨텍스트는 언제 자동으로 플러시되나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/156)
+7. [**1차 캐시, 2차 캐시에 대해 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/155)
+
+### 로딩 전략 및 성능 최적화
+
+1. [**즉시 로딩과 지연 로딩이 무엇인지 설명해주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/137)
+2. [**JPA에서 Lazy Loading과 Eager Loading의 차이를 설명해 주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/162)
+3. [**N+1 문제란 무엇이며, 이를 해결하기 위한 방법은 무엇인가요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/159)
+4. [**N+1 문제가 무엇이고 어떻게 해결할 수 있는지 설명해주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/138)
+5. [**@EntityGraph 와 fetch join의 차이점을 설명해주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/139)
+6. [**fetchJoin과 페이징을 함께 시도하면 어떤 문제가 발생하고 어떻게 해결할 수 있나요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/142)
+
+### 연관관계
+
+1. [**@ManyToOne , @OneToMany , @OneToOne 어노테이션에 대해 설명해주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/133)
+2. [**@JoinColumn의 역할과 사용시 주의점을 설명해주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/134)
+3. [**JPA CascadeType.REMOVE와 orphanRemoval = true가 각각 무엇이고 어떤 차이점이 있는지 설명해주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/140)
+4. [**연관관계의 주인이 무엇이며 왜 명확히 해야 하는지 설명해주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/136)
+5. [**양방향 연관관계를 맺을 경우의 주의점을 설명해주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/135)
+
+### 쿼리
+
+1. [**JPQL을 통해 Update, Delete 쿼리 사용 시 발생할 수 있는 문제점과 해결방안을 설명해주세요**](https://github.com/woowacourse-study-2024/level-interview/discussions/161)
+
+### 트랜잭션 & 동시성 제어
+
+1. [**@Version 어노테이션을 활용해 낙관적 락을 시도할 때 연관된 엔티티간의 버전 관리 문제를 어떻게 처리할 수 있을까요?**](https://github.com/woowacourse-study-2024/level-interview/discussions/141)
+2. [**@Version 어노테이션의 역할과 이를 통해 데이터베이스에서 낙관적 락을 구현하는 방법에 대해 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/148)
+
+### 기타 설정
+
+1. [**JPA에서 데이터베이스 스키마를 자동 생성하도록 설정하는 방법을 설명해주세요.**](https://github.com/woowacourse-study-2024/level-interview/discussions/146)
+
 </details>
 
 <details>
