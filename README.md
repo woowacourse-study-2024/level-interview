@@ -20,7 +20,7 @@
 1. [강한 결합과 느슨한 결합의 차이를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/10)
 2. [추상 클래스와 인터페이스는 어떤 상황에서 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/27)
 3. [추상클래스와 인터페이스의 차이를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/11)
-4. [default 메서드는 무엇이고, 왜 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/36)
+
 ### JVM
 1. [Java 파일이 실행되는 과정을 설명해보세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/5)
 2. [클래스와 인스턴스는 JVM내에서 어떻게 동작하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/24)
@@ -63,6 +63,9 @@
 2. [Serializable 대신 사용할 수 있는 다른 직렬화 방법에는 어떤 것이 있나요? 각각의 장단점을 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/180)
 
 ### Java 8
+#### defualt 메서드
+1. [default 메서드는 무엇이고, 왜 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/36)
+
 #### Optional
 1. [자바에서 null을 안전하게 다루는 방법에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/17)
 2. [Optional이란 무엇이며, 어떤 문제를 해결하기 위해 도입되었나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/35)
