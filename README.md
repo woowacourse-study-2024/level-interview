@@ -6,11 +6,8 @@
 ### 객체지향 기초 개념
 1. [클래스, 인스턴스 그리고 객체의 차이점은 무엇인가요?](https://github.com/woowacourse-study-2024/level-interview/discussions/19)
 #### 상속
-1. [추상 클래스와 인터페이스는 어떤 상황에서 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/27)
-2. [추상클래스와 인터페이스의 차이를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/11)
-3. [상속과 조합은 각각 무엇이고 어떤 상황에서 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/28)
-4. [상속이 갖는 문제점은 무엇이고 이를 어떻게 해결할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/29)
-5. [default 메서드는 무엇이고, 왜 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/36)
+1. [상속과 조합은 각각 무엇이고 어떤 상황에서 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/28)
+2. [상속이 갖는 문제점은 무엇이고 이를 어떻게 해결할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/29)
 #### 다형성
 1. [Java에서 다형성을 구현하는 방법은 무엇이 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/1)
 2. [Overriding의 조건은?](https://github.com/woowacourse-study-2024/level-interview/discussions/2)
@@ -21,7 +18,9 @@
 2. [Java에서 접근 제어자에 대해 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/18)
 #### 추상화
 1. [강한 결합과 느슨한 결합의 차이를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/10)
-
+2. [추상 클래스와 인터페이스는 어떤 상황에서 사용할 수 있나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/27)
+3. [추상클래스와 인터페이스의 차이를 설명해주세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/11)
+4. [default 메서드는 무엇이고, 왜 사용하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/36)
 ### JVM
 1. [Java 파일이 실행되는 과정을 설명해보세요.](https://github.com/woowacourse-study-2024/level-interview/discussions/5)
 2. [클래스와 인스턴스는 JVM내에서 어떻게 동작하나요?](https://github.com/woowacourse-study-2024/level-interview/discussions/24)
